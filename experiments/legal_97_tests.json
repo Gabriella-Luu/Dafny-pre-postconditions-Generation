@@ -1,0 +1,487 @@
+{
+  "804": {
+    "task_id": "804",
+    "task_description": "Write a method in Dafny to check whether the product of numbers in an array is even or not. Do not calculate the product",
+    "method_signature": "method isProductEven(arr:array<int>) returns (res:bool)"
+  },
+  "762": {
+    "task_id": "762",
+    "task_description": "Write a method in Dafny to check whether the given month number contains 30 days or not. Months are given as number from 1 to 12.",
+    "method_signature": "method checkMonthnumberNumber(monthnum:int) returns (res:bool)"
+  },
+  "572": {
+    "task_id": "572",
+    "task_description": "Write a method in Dafny to remove duplicate numbers from a given integer array.",
+    "method_signature": "method twoUniqueNums(nums:array<int>) returns (res:array<int>)"
+  },
+  "557": {
+    "task_id": "557",
+    "task_description": "Write a method in Dafny to toggle the case of all characters in a string.",
+    "method_signature": "method toggleString(str:string) returns (res:string)"
+  },
+  "554": {
+    "task_id": "554",
+    "task_description": "Write a method in Dafny which takes a list of integers and only returns the odd ones.",
+    "method_signature": "method  oddSplit(arr: array<int>) returns (oddList: seq<int>)"
+  },
+  "458": {
+    "task_id": "458",
+    "task_description": "Write a method in Dafny to find the area of a rectangle.",
+    "method_signature": "method rectangleArea(l:int,b:int) returns (res:int)"
+  },
+  "436": {
+    "task_id": "436",
+    "task_description": "Write a method in Dafny to return the negative numbers from an integer array.",
+    "method_signature": "method negNos(list1:array<int>) returns (res:array<int>)"
+  },
+  "412": {
+    "task_id": "412",
+    "task_description": "Write a method in Dafny to remove odd numbers from a given integer array.",
+    "method_signature": "method removeOdd(arr: array<int>) returns (evenList: seq<int>)"
+  },
+  "397": {
+    "task_id": "397",
+    "task_description": "Write a method in Dafny to find the median of three numbers",
+    "method_signature": "method medianNumbers(a:int,b:int,c:int) returns (median:int)"
+  },
+  "234": {
+    "task_id": "234",
+    "task_description": "Write a method in Dafny to find the volume of a cube given its side length.",
+    "method_signature": "method volumeCube(l:int) returns (res:int)"
+  },
+  "161": {
+    "task_id": "161",
+    "task_description": "Write a method in Dafny to remove all elements from a given integer array present in another integer array.",
+    "method_signature": "method removeElements(list1:array<int>, list2:array<int>) returns (res:array<int>)"
+  },
+  "145": {
+    "task_id": "145",
+    "task_description": "Write a method in Dafny to find the maximum difference between any two elements in a given array.",
+    "method_signature": "method maxAbsDiff(arr:array<int>) returns (res:int)"
+  },
+  "126": {
+    "task_id": "126",
+    "task_description": "Write a method in Dafny to find the sum of common divisors of two given numbers.",
+    "method_signature": "method sumOfCommonDivisor(a:int,b:int) returns (res:int)"
+  },
+  "14": {
+    "task_id": "14",
+    "task_description": "Write a method in Dafny to find the volume of a triangular prism.",
+    "method_signature": "method findVolume(base: int, height: int, length: int) returns (volume: int)"
+  },
+  "8": {
+    "task_id": "8",
+    "task_description": "Write a method in Dafny to find squares of individual elements in an array.",
+    "method_signature": "method squareNums(nums:array<int>) returns (out:array<int>)"
+  },
+  "18": {
+    "task_id": "18",
+    "task_description": "Write a method in Dafny to remove characters from the first string which are present in the second string.",
+    "method_signature": "method removeChars (firstStr:string, secondStr:string) returns (res:string)"
+  },
+  "769": {
+    "task_id": "769",
+    "task_description": "Write a method in Dafny to get the difference between two lists.",
+    "method_signature": "method diff (a: seq<int>, b: seq<int>) returns (diff: seq<int>)"
+  },
+  "751": {
+    "task_id": "751",
+    "task_description": "Write a method in Dafny to check if the given array represents min heap or not.",
+    "method_signature": "method checkMinHeap (arr1:array<int>) returns (res:bool)"
+  },
+  "2": {
+    "task_id": "2",
+    "task_description": "Write a method in Dafny to find the shared elements from the given two array.",
+    "method_signature": "method sharedElements (arr1:array<int>, arr2:array<int>) returns (res: seq<int>)"
+  },
+  "17": {
+    "task_id": "17",
+    "task_description": "Write a method in Dafny that returns the perimeter of a square given its side length as input.",
+    "method_signature": "method squarePerimeter(side:int) returns (res: int)"
+  },
+  "59": {
+    "task_id": "59",
+    "task_description": "Write a method in Dafny to find the nth octagonal number.",
+    "method_signature": "method isOctagonal (n:int) returns (res:int)"
+  },
+  "61": {
+    "task_id": "61",
+    "task_description": "Write a method in Dafny to count the number of substrings with the sum of digits equal to their length.",
+    "method_signature": "method countSubstrings(str:string) returns (res:int)"
+  },
+  "399": {
+    "task_id": "399",
+    "task_description": "Write a method in Dafny to perform the mathematical bitwise xor operation across the given two sequences of Bit-vector.",
+    "method_signature": "method bitwiseXOR(sq1: seq<bv32>,sq2: seq<bv32>) returns (res:seq<bv32>)"
+  },
+  "69": {
+    "task_id": "69",
+    "task_description": "Write a method in Dafny to check whether a list of sequence contains the given sequence or not.",
+    "method_signature": "method isSublist (list: seq<seq<int>>, sub: seq<int>) returns (res: bool)"
+  },
+  "79": {
+    "task_id": "79",
+    "task_description": "Write a method in Dafny to check whether the length of the word is odd or not.",
+    "method_signature": "method wordLen(str:string) returns (res:bool)"
+  },
+  "86": {
+    "task_id": "86",
+    "task_description": "Write a method in Dafny to find nth centered hexagonal number.",
+    "method_signature": "method centeredHexagonalNumber(n:int) returns (res:int)"
+  },
+  "750": {
+    "task_id": "750",
+    "task_description": "Write a method in Dafny to add the given tuple to the given list.",
+    "method_signature": "method addTuple(l: seq<(int, int)>, t: (int, int)) returns (r: seq<(int, int)>)"
+  },
+  "759": {
+    "task_id": "759",
+    "task_description": "Write a method in Dafny to check whether a given string is a decimal number with a precision of 2.",
+    "method_signature": "method isDecimal(str:string) returns (res:bool)"
+  },
+  "790": {
+    "task_id": "790",
+    "task_description": "Write a method in Dafny to check whether every even index contains even numbers of a given list.",
+    "method_signature": "method evenPosition(list: seq<int>) returns (res:bool)"
+  },
+  "792": {
+    "task_id": "792",
+    "task_description": "Write a method in Dafny to count the number of lists in a given number of lists.",
+    "method_signature": "method countList (list:seq<seq<int>>) returns (res:int)"
+  },
+  "801": {
+    "task_id": "801",
+    "task_description": "Write a method in Dafny to count the number of equal numbers from three given integers.",
+    "method_signature": "method isThreeEqual (a:int, b:int, c:int) returns (res:int)"
+  },
+  "808": {
+    "task_id": "808",
+    "task_description": "Write a method in Dafny to check if the given sequence contain the k or not.",
+    "method_signature": "method checkK(s1: seq<int>, K:int) returns (res: bool)"
+  },
+  "809": {
+    "task_id": "809",
+    "task_description": "Write a method in Dafny to check if each element of second sequence is smaller than its corresponding element in the first sequence.",
+    "method_signature": "method checkSmaller (s1: seq<int>, s2: seq<int>) returns (res:bool)"
+  },
+  "240": {
+    "task_id": "240",
+    "task_description": "Write a method in Dafny that takes in two lists and replaces the last element of the first list with the elements of the second list.",
+    "method_signature": "method replaceList(first: seq<int>, second: seq<int>) returns (result: seq<int>)"
+  },
+  "249": {
+    "task_id": "249",
+    "task_description": "Write a method in Dafny to find the intersection of two integers arrays.",
+    "method_signature": "method intersectionArray(a: array<int>, b: array<int>) returns (result: seq<int>)"
+  },
+  "251": {
+    "task_id": "251",
+    "task_description": "Write a method in Dafny that takes in a list of string and a string and inserts the string before each element in the list, and returns the resulting list.",
+    "method_signature": "method insertElement(list: seq<string>, element:string) returns (res: seq<string>)"
+  },
+  "728": {
+    "task_id": "728",
+    "task_description": "Write a method in Dafny takes as input two lists [a_1,...,a_n], [b_1,...,b_n] and returns [a_1+b_1,...,a_n+b_n].",
+    "method_signature": "method sumList(a: seq<int>, b: seq<int>) returns (result: seq<int>)"
+  },
+  "70": {
+    "task_id": "70",
+    "task_description": "Write a method in Dafny to find whether all the given list of sequences have equal length or not.",
+    "method_signature": "method getEqual(list: seq<seq<int>>) returns (res:bool)"
+  },
+  "80": {
+    "task_id": "80",
+    "task_description": "Write a method in Dafny to find the nth tetrahedral number.",
+    "method_signature": "method tetrahedralNumber (n: int) returns (res:int)"
+  },
+  "89": {
+    "task_id": "89",
+    "task_description": "Write a method in Dafny to find the closest smaller number than n.",
+    "method_signature": "method closestNum(n:int) returns (res:int)"
+  },
+  "94": {
+    "task_id": "94",
+    "task_description": "Given a array of sequence, write a method in Dafny that returns the first value of the sequence with the smallest second value.",
+    "method_signature": "method indexMinimum(list: array<seq<int>>) returns (res:int)"
+  },
+  "95": {
+    "task_id": "95",
+    "task_description": "Write a method in Dafny to find the length of the smallest list in a list of lists.",
+    "method_signature": "method findMinLength (list: seq<seq<int>>) returns (res:int)"
+  },
+  "106": {
+    "task_id": "106",
+    "task_description": "Write a method in Dafny to append the given array to the given sequence.",
+    "method_signature": "method addLists(s: seq<int>, a: array<int>) returns (r: seq<int>)"
+  },
+  "113": {
+    "task_id": "113",
+    "task_description": "Write a method in Dafny to check if a string represents an integer or not.",
+    "method_signature": "method checkInteger (str:string) returns (res:bool)"
+  },
+  "135": {
+    "task_id": "135",
+    "task_description": "Write a method in Dafny to find the nth hexagonal number.",
+    "method_signature": "method hexagonalNum(n:int) returns (res:int)"
+  },
+  "171": {
+    "task_id": "171",
+    "task_description": "Write a method in Dafny to find the perimeter of a regular pentagon from the length of its sides.",
+    "method_signature": "method perimeterPentagon (a:int) returns (res:int)"
+  },
+  "230": {
+    "task_id": "230",
+    "task_description": "Write a method in Dafny that takes in a string and character, replaces blank spaces in the string with the character, and returns the string.",
+    "method_signature": "method replaceBlank(str1:string, ch:char) returns (res:string)"
+  },
+  "238": {
+    "task_id": "238",
+    "task_description": "Write a method in Dafny to count the number of non-empty substrings of a given string.",
+    "method_signature": "method numberOfSubstrings(str:string) returns (res:int)"
+  },
+  "242": {
+    "task_id": "242",
+    "task_description": "Write a method in Dafny to count the total number of characters in a string.",
+    "method_signature": "method countCharacter(str:string) returns (res:int)"
+  },
+  "257": {
+    "task_id": "257",
+    "task_description": "Write a method in Dafny that takes in two numbers and returns a sequence with the second number and then the first number.",
+    "method_signature": "method swapNumbers(a:int,b:int) returns (res: seq<int>)"
+  },
+  "261": {
+    "task_id": "261",
+    "task_description": "Write a method in Dafny that takes in two sequences and performs mathematical division operation element-wise across the given sequences.",
+    "method_signature": "method divisionElements(test_tup1:seq<int>, test_tup2:seq<int>) returns (res: seq<int>)"
+  },
+  "264": {
+    "task_id": "264",
+    "task_description": "Write a method in Dafny to calculate a dog's age in dog's years.",
+    "method_signature": "method dogAge(hAge:int) returns (res:int)"
+  },
+  "266": {
+    "task_id": "266",
+    "task_description": "Write a method in Dafny to find the lateral surface area of a cube given its side length.",
+    "method_signature": "method lateralsurfaceCube(l:int) returns (res:int)"
+  },
+  "268": {
+    "task_id": "268",
+    "task_description": "Write a method in Dafny to find the n'th star number.",
+    "method_signature": "method findStarNum(n:int) returns (res:int)"
+  },
+  "269": {
+    "task_id": "269",
+    "task_description": "Write a method in Dafny to find the ascii value of a character.",
+    "method_signature": "method asciiValue(ch:char) returns (res:int)"
+  },
+  "273": {
+    "task_id": "273",
+    "task_description": "Write a method in Dafny that takes in two sequences and subtracts the elements of the first sequence by the elements of the second sequence with the same index.",
+    "method_signature": "method substractElements(s1:seq<int>, s2:seq<int>) returns (res:seq<int>)"
+  },
+  "279": {
+    "task_id": "279",
+    "task_description": "Write a method in Dafny to find the nth decagonal number.",
+    "method_signature": "method isNumDecagonal (n:int) returns (res:int)"
+  },
+  "282": {
+    "task_id": "282",
+    "task_description": "Write a method in Dafny to subtract two arrays element-wise.",
+    "method_signature": "method subtractList(a1:array<int>, a2:array<int>) returns (res:array<int>)"
+  },
+  "284": {
+    "task_id": "284",
+    "task_description": "Write a method in Dafny that takes in an array and element and checks whether all items in the array are equal to the given element.",
+    "method_signature": "method checkElement(a1:array<int>, e:int) returns (res:bool)"
+  },
+  "307": {
+    "task_id": "307",
+    "task_description": "Write a method in Dafny to get a deep copy of a sequence.",
+    "method_signature": "method deepCloneSequence(s1:seq<int>) returns (res:seq<int>)"
+  },
+  "309": {
+    "task_id": "309",
+    "task_description": "Write a method in Dafny to find the maximum of two numbers.",
+    "method_signature": "method maximum(a:int,b:int) returns (max:int)"
+  },
+  "310": {
+    "task_id": "310",
+    "task_description": "Write a method in Dafny to convert a given string to a array of characters.",
+    "method_signature": "method stringToChar(str:string) returns (res:seq<char>)"
+  },
+  "396": {
+    "task_id": "396",
+    "task_description": "Write a method in Dafny to check whether the given string starts and ends with the same character or not.",
+    "method_signature": "method checkChar(str:string) returns (res:bool)"
+  },
+  "401": {
+    "task_id": "401",
+    "task_description": "Write a method in Dafny to perform index wise addition of sequence elements in the given two nested sequences.",
+    "method_signature": "method addNestedSequence(a: seq<seq<int>>, b: seq<seq<int>>) returns (result: seq<seq<int>>)"
+  },
+  "424": {
+    "task_id": "424",
+    "task_description": "Write a method in Dafny to extract only the rear index character of each string in the given sequence of strings.",
+    "method_signature": "method extractRear(strList:seq<string>) returns (res: seq<char>)"
+  },
+  "445": {
+    "task_id": "445",
+    "task_description": "Write a method in Dafny to perform index wise multiplication of elements in the given two sequences.",
+    "method_signature": "method indexMultiplication(a: seq<int>, b: seq<int>) returns (result: seq<int>)"
+  },
+  "452": {
+    "task_id": "452",
+    "task_description": "Write a method in Dafny that gives loss amount on a sale if the given amount has loss else return 0.",
+    "method_signature": "method lossAmount(cost:int,sale:int) returns (res:int)"
+  },
+  "455": {
+    "task_id": "455",
+    "task_description": "Write a method in Dafny to check whether the given month number contains 31 days or not.",
+    "method_signature": "method checkMonthnumbNumber (m:int) returns (res:bool)"
+  },
+  "457": {
+    "task_id": "457",
+    "task_description": "Write a method in Dafny to find the sublist having minimum length.",
+    "method_signature": "method findMin(list:seq<seq<int>>) returns (res: seq<int>)"
+  },
+  "460": {
+    "task_id": "460",
+    "task_description": "Write a method in Dafny to get the first element of each sublist.",
+    "method_signature": "method extract(list: seq<seq<int>>) returns (res: seq<int>)"
+  },
+  "565": {
+    "task_id": "565",
+    "task_description": "Write a method in Dafny to split a string into characters.",
+    "method_signature": "method split(str:string) returns (res:seq<char>)"
+  },
+  "577": {
+    "task_id": "577",
+    "task_description": "Write a method in Dafny to find the factorial of the last digit in a given number.",
+    "method_signature": "method lastDigitFactorial(n:int) returns (res:int)"
+  },
+  "578": {
+    "task_id": "578",
+    "task_description": "Write a method in Dafny to interleave 3 sequence of the same length into a single flat sequence.",
+    "method_signature": "method interleaveLists(list1: seq<int>, list2: seq<int>,list3: seq<int>) returns (merged: seq<int>)"
+  },
+  "586": {
+    "task_id": "586",
+    "task_description": "Write a method in Dafny to split a list at the nth element and add the first part to the end.",
+    "method_signature": "method splitArr(l: seq<int>, n:int) returns (part:seq<int>)"
+  },
+  "587": {
+    "task_id": "587",
+    "task_description": "Write a method in Dafny to convert an array to a sequence.",
+    "method_signature": "method arrayToSequence(arr:array<int>) returns (res: seq<int>)"
+  },
+  "603": {
+    "task_id": "603",
+    "task_description": "Write a method in Dafny to get all lucid numbers smaller than or equal to a given integer.",
+    "method_signature": "method  getLudic(n: int) returns (lucids: seq<int>)"
+  },
+  "618": {
+    "task_id": "618",
+    "task_description": "Write a method in Dafny to divide two lists element wise.",
+    "method_signature": "method divList(a: seq<int>, b: seq<int>) returns (result: seq<int>)"
+  },
+  "626": {
+    "task_id": "626",
+    "task_description": "Write a method in Dafny to find the area of the largest triangle that can be inscribed in a semicircle with a given radius.",
+    "method_signature": "method triangleArea(r:int) returns (res:int)"
+  },
+  "637": {
+    "task_id": "637",
+    "task_description": "Write a method in Dafny to check whether the given amount has no profit and no loss.",
+    "method_signature": "method noprofitNoloss(cost: int, sale: int) returns (res:bool)"
+  },
+  "641": {
+    "task_id": "641",
+    "task_description": "Write a method in Dafny to find the nth nonagonal number.",
+    "method_signature": "method isNonagonal(n:int) returns (res:int)"
+  },
+  "414": {
+    "task_id": "414",
+    "task_description": "Write a method in Dafny to check whether any value in a sequence exists in a sequence or not.",
+    "method_signature": "method overlapping(list1:seq<int>,list2:seq<int>) returns (res:bool)"
+  },
+  "623": {
+    "task_id": "623",
+    "task_description": "Write a method in Dafny to compute the n-th power of each number in a list.",
+    "method_signature": "method nthNums(list:seq<int>, n:int) returns (res: seq<int>)"
+  },
+  "598": {
+    "task_id": "598",
+    "task_description": "Write a method in Dafny to check whether the given number is armstrong or not.",
+    "method_signature": "method armstrongNumber(number:int) returns (res:bool)"
+  },
+  "581": {
+    "task_id": "581",
+    "task_description": "Write a method in Dafny to find the surface area of a square pyramid with a given base edge and height.",
+    "method_signature": "method surfaceArea(baseEdge: int, height: int) returns (area: int)"
+  },
+  "555": {
+    "task_id": "555",
+    "task_description": "Write a method in Dafny to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.",
+    "method_signature": "method difference(n: int) returns (diff: int)"
+  },
+  "470": {
+    "task_id": "470",
+    "task_description": "Write a method in Dafny to find the pairwise addition of the neighboring elements of the given sequence.",
+    "method_signature": "method addPairwise(a: array<int>) returns (result: array<int>)"
+  },
+  "426": {
+    "task_id": "426",
+    "task_description": "Write a method in Dafny to filter odd numbers.",
+    "method_signature": "method filterOddNumbers (arr: array<int>) returns (odds: seq<int>)"
+  },
+  "406": {
+    "task_id": "406",
+    "task_description": "Write a method in Dafny to find whether the parity of a given number is odd.",
+    "method_signature": "method findParity(n:int) returns (res:bool)"
+  },
+  "292": {
+    "task_id": "292",
+    "task_description": "Write a method in Dafny to find quotient of two numbers (rounded down to the nearest integer).",
+    "method_signature": "method  findQuotient(a:int, b:int) returns (res:int)"
+  },
+  "290": {
+    "task_id": "290",
+    "task_description": "Write a method in Dafny to find the list of maximum length in a list of lists.",
+    "method_signature": "method maxLength(list1: seq<seq<int>>) returns (max: seq<int>)"
+  },
+  "799": {
+    "task_id": "799",
+    "task_description": "Write a method in Dafny to that rotate left bits by d bits a given number in Bit-vector. We assume that the number is 32 bit.",
+    "method_signature": "method leftRotate (n: bv32, d: int) returns (r: bv32)"
+  },
+  "567": {
+    "task_id": "567",
+    "task_description": "Write a method in Dafny to check whether a specified array is sorted or not.",
+    "method_signature": "method IsSorted(a: array<int>) returns (sorted: bool)"
+  },
+  "579": {
+    "task_id": "579",
+    "task_description": "Write a method in Dafny to find the dissimilar elements in the given two integer arrays.",
+    "method_signature": "method DissimilarElements(a: array<int>, b: array<int>) returns (result: seq<int>)"
+  },
+  "629": {
+    "task_id": "629",
+    "task_description": "Write a method in Dafny to find even numbers from an array of numbers.",
+    "method_signature": "method FindEvenNumbers(arr: array<int>) returns (evenList: seq<int>)"
+  },
+  "733": {
+    "task_id": "733",
+    "task_description": "Write a method in Dafny to find the index of the first occurrence of a given number in a sorted array.",
+    "method_signature": "method FindFirstOccurrence(arr: array<int>, target: int) returns (index: int)"
+  },
+  "793": {
+    "task_id": "793",
+    "task_description": "Write a method in Dafny to find the last position of an given element in a sorted array.",
+    "method_signature": "method LastPosition(arr: array<int>, elem: int) returns (pos: int)"
+  },
+  "576": {
+    "task_id": "576",
+    "task_description": "Write a method in Dafny to check whether a list is sublist of another or not.",
+    "method_signature": "method IsSublist(sub: seq<int>, main: seq<int>) returns (result: bool)"
+  }
+}

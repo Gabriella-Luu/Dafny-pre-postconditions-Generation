@@ -1,0 +1,11 @@
+```dafny
+method FindFirstOccurrence(arr: array<int>, target: int) returns (index: int)
+  requires arr != null
+  requires forall i, j :: 0 <= i < j < arr.Length ==> arr[i] <= arr[j]
+  ensures 0 <= index <= arr.Length
+  ensures (index < arr.Length ==> arr[index] == target && (forall i :: 0 <= i < index ==> arr[i] != target))
+  ensures (index == arr.Length ==> forall i :: 0 <= i < arr.Length ==> arr[i] != target)
+{
+  // Implementation not provided
+}
+```

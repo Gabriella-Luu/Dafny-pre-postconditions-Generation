@@ -1,0 +1,72 @@
+{
+  "101": {
+    "method_signature": "method KthElement(arr: array<int>, k: int) returns (result: int)",
+    "task_description": "Write a method in Dafny to find the k-th element in the given array using 1-based indexing.",
+    "task_id": "101"
+  },
+  "267": {
+    "method_signature": "method SumOfSquaresOfFirstNOddNumbers(n: int) returns (sum: int)",
+    "task_description": "Write a method in Dafny that takes in an integer n and returns the sum of the squares of the first n odd natural numbers.",
+    "task_id": "267"
+  },
+  "431": {
+    "method_signature": "method HasCommonElement(a: array<int>, b: array<int>) returns (result: bool)",
+    "task_description": "Write a method in Dafny that takes two integer arrays and returns true if they have at least one common element.",
+    "task_id": "431"
+  },
+  "454": {
+    "method_signature": "method ContainsZ(s: string) returns (result: bool)",
+    "task_description": "Write a method in Dafny that matches a word containing 'z'.",
+    "task_id": "454"
+  },
+  "474": {
+    "method_signature": "method ReplaceChars(s: string, oldChar: char, newChar: char) returns (v: string)",
+    "task_description": "Write a method in Dafny to replace characters in a string.",
+    "task_id": "474"
+  },
+  "58": {
+    "method_signature": "method HasOppositeSign(a: int, b: int) returns (result: bool)",
+    "task_description": "Write a method in Dafny to check whether the given two integers have opposite sign or not.",
+    "task_id": "58"
+  },
+  "599": {
+    "method_signature": "method SumAndAverage(n: int) returns (sum: int, average: real)",
+    "task_description": "Write a method in Dafny to find sum and average of first n natural numbers.",
+    "task_id": "599"
+  },
+  "600": {
+    "method_signature": "method IsEven(n: int) returns (result: bool)",
+    "task_description": "Write a method in Dafny to check whether the given number is even or not.",
+    "task_id": "600"
+  },
+  "605": {
+    "method_signature": "method IsPrime(n: int) returns (result: bool)",
+    "task_description": "Write a method in Dafny to check if the given integer is a prime number.",
+    "task_id": "605"
+  },
+  "627": {
+    "method_signature": "method SmallestMissingNumber(s: seq<int>) returns (v: int)",
+    "task_description": "Write a method in Dafny to find the smallest missing number from a sorted list of natural numbers.",
+    "task_id": "627"
+  },
+  "741": {
+    "method_signature": "method AllCharactersSame(s: string) returns (result: bool)",
+    "task_description": "Write a method in Dafny to check whether all the characters are same or not.",
+    "task_id": "741"
+  },
+  "743": {
+    "method_signature": "method RotateRight(l: seq<int>, n: int) returns (r: seq<int>)",
+    "task_description": "Write a method in Dafny to rotate a given list by specified N number of items to the right direction.",
+    "task_id": "743"
+  },
+  "77": {
+    "method_signature": "method IsDivisibleBy11(n: int) returns (result: bool)",
+    "task_description": "Write a method in Dafny to find whether a number is divisible by 11.",
+    "task_id": "77"
+  },
+  "770": {
+    "method_signature": "method SumOfFourthPowerOfOddNumbers(n: int) returns (sum: int)",
+    "task_description": "Write a method in Dafny to find the sum of fourth power of first n odd natural numbers.",
+    "task_id": "770"
+  }
+}
